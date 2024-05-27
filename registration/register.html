@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/CSS/styles.css" />
+    <link rel="stylesheet" href="../assets/CSS/fonts.css" />
+    <title>ثبت نام در بوتیک صورتی</title>
+  </head>
+
+  <body style="background: #f2c4b5">
+    <div id="container" style="display: flex">
+      <div class="register-form">
+        <input type="text" id="username" placeholder="نام کاربری" />
+        <input type="email" id="email" placeholder="ایمیل" />
+        <input type="password" id="password" placeholder="کلمه عبور" />
+        <div id="form-btns">
+          <button type="submit" name="register" onclick="checkFields()">
+            ثبت نام
+          </button>
+        </div>
+        <span id="Error"></span>
+      </div>
+    </div>
+
+    <script src="../assets/JS/userForm.js"></script>
+  </body>
+</html>

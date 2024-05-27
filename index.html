@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+    <link rel="stylesheet" href="assets/CSS/media.css">
+    <link rel="stylesheet" href="assets/CSS/fonts.css">
+    <title>bycicles</title>
+</head>
+
+<body>
+    <header>
+        <div id="navbar">
+            <div id="menus">
+                <img src="assets/Images/Logo.png" id="logo" alt="">
+                <div class="humberger">
+                    <img id="humberger" src="assets/Images/hubmerger.svg" alt="">
+                </div>
+                <div id="humberger-menu">
+                    <ul>
+                        <li class="menu-item"><a href="#products">محصولات</a></li>
+                        <li class="menu-item"><a href="#footer">درباره ما</a></li>
+                        <li class="menu-item"><a href="#footer">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div id="menu">
+                    <ul id="menubar">
+                        <li class="menu-item"><a href="#products">محصولات</a></li>
+                        <li class="menu-item"><a href="#footer">درباره ما</a></li>
+                        <li class="menu-item"><a href="#footer">تماس با ما</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="form">
+                <div id="user">
+                    <button id="login-register-btn"> ثبت نام و ورود</button>
+                </div>
+
+                <label for="search-input" id="search-image">
+                    <img src="assets/Images/search.svg" alt="">
+                </label>
+                <div id="search-box">
+                    <input id="search-input" type="text" placeholder="جستوجوی محصول">
+                </div>
+
+            </div>
+        </div>
+
+
+    </header>
+    <div id="container">
+        <div class="register-form">
+            <input type="email" id="email" placeholder="ایمیل">
+            <input type="password" id="password" placeholder="کلمه عبور">
+            <div id="form-btns">
+                <button onclick="checkFields()">ورود</button>
+                <button onclick="registerPage()">ثبت نام</button>
+            </div>
+            <span id="Error"></span>
+        </div>
+
+    </div>
+    <div id="banner">
+        <div id="banner-text">
+            <h1>بوتیک<span> صورتی</span></h1>
+            <p>یک تجربه خرید عالی </p>
+        </div>
+    </div>
+    <div id="display"></div>
+    <div id="products">
+        <!-- here we have products -->
+    </div>
+    <div class="product-ads">
+        <h1>5 تا بخر یکی هدیه ببر</h1>
+        <img src="assets/Images/ad-woman.png" alt="">
+    </div>
+    <footer>
+        <div id="footer">
+            <div id="footer-links-text">
+                <div id="footer-text">
+                    <h1>بوتیک<span> صورتی</span></h1>
+                    <p>
+                        با اپلیکیشن بوتیک صورتی به سادگی هر چه بیشتر خرید کنید. </p>
+                    <div id="subscribe">
+                        <input type="email" id="subscribe-input" placeholder="ایمیلتو وارد کن" />
+                        <button>سابسکرایب</button>
+                    </div>
+                </div>
+                <ul id="footer-links">
+                    <li>
+                        <h3>خدمات مشتریان</h3>
+                        <ul class="links">
+                            <li><a href="#">پاسخ به پرسش های متداول</a></li>
+                            <li><a href="#">رویه های بازگرداندن کالا</a></li>
+                            <li><a href="#">شرایط استفاده</a></li>
+                            <li><a href="#">حریم خصوصی</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>اطلاعات بوتیک صورتی</h3>
+                        <ul class="links">
+                            <li><a href="#">همکاری ما</a></li>
+                            <li><a href="#">تماس با ما</a></li>
+                            <li><a href="#">درباره ما</a></li>
+                            <li><a href="#"> </a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>خرید</h3>
+                        <ul class="links">
+                            <li><a href="#">زنانه</a></li>
+                            <li><a href="#">مردانه</a></li>
+                            <li><a href="#">بچگانه</a></li>
+                            <li><a href="#"> </a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="socials">
+                <ul>
+                    <li><a href="#"><img src="assets/Images/socials/facebook.svg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/Images/socials/instagram.svg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/Images/socials/pinterest.svg" alt=""></a></li>
+                    <li><a href="#"><img src="assets/Images/socials/googlePlay.svg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="assets/JS/products.js"></script>
+<script src="assets/JS/userForm.js"></script>
+
+</html>
